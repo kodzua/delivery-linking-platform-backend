@@ -1,0 +1,36 @@
+# ========== ENV / SECRETS ==========
+.env
+.env.*
+*.env
+
+# ========== PYTHON ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ========== LOGS ==========
+*.log
+
+# ========== DATABASE (POSTGRES) ==========
+*.dump
+*.sql
+*.backup
+
+# ========== IDE ==========
+.vscode/
+.idea/
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== BUILD / CACHE ==========
+dist/
+build/
